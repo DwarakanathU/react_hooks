@@ -18,7 +18,7 @@ const ParentComponent = () => {
   };
   useEffect(() => {
     clearTimeout(intervalID);
-  }, []);
+  }, [intervalID]);
 
   return (
     <div>
